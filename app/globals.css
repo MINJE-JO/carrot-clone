@@ -21,8 +21,8 @@
 }
 
 @layer components {
-  .button {
-    @apply w-full h-10 bg-orange-500 text-white text-lg font-semibold p-2 rounded-md text-center py-2.5 hover:bg-orange-400 transition-colors;
+  .primary-btn {
+    @apply w-full bg-orange-500 text-white font-semibold rounded-md text-center hover:bg-orange-400 transition-colors;
     
   }
 }
