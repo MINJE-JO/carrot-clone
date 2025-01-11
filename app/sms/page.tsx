@@ -13,12 +13,14 @@ export default function SMSLogin() {
           placeholder="Phone number"
           required={true}
           error={[]}
+          name="phone"
         />
         <FormInput
           type="number"
           placeholder="Verification code"
           required={true}
           error={[]}
+          name="code"
         />
         <FormBtn text="Verify " loading={false} />
       </form>
